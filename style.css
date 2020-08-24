@@ -27,3 +27,6 @@ li a.active {
   color: white;
   background-color: #4CAF50;
 }
+.header-right {
+  float: right;
+}
