@@ -3,23 +3,7 @@
 /************************************************************************/
 
 
-/************************************************************************/
-/* FOOTER STYLES
-/************************************************************************/
-footer[role="contentinfo"] {
-  *zoom: 1;
-  background-color: #e6e6e6;
-  padding: 2rem 0;
-}
 
-footer[role="contentinfo"]:before, footer[role="contentinfo"]:after {
-  display: table;
-  content: "";
-}
-
-footer[role="contentinfo"]:after {
-  clear: both;
-}
 ul {
   list-style-type: none;
   margin: 0;
