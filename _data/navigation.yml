@@ -1,0 +1,19 @@
+# _data/navigation.yml
+
+primary:
+  - text: Documentation
+    href: /docs/
+  - text: Support
+    href: /help/
+    class: highlight
+  - text: "18F"
+    href: https://18f.gsa.gov
+    external: true
+
+  # link objects with a 'links' field will be presented as
+  # collapsible link lists. The 'links' field can either be
+  # a reference to another link list in this file, or
+  # a literal list.
+
+  - text: Section title
+    links: <links>
