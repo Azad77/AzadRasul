@@ -8,30 +8,23 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link type="text/css" rel="stylesheet" href="style.css" />
+<script>
+  $(function(){
+    var includes = $('[data-include]');
+    jQuery.each(includes, function(){
+      var file = '_includes/' + $(this).data('include') + '.html';
+      $(this).load(file);
+    });
+  });
+</script>
 <style>
 
 </style>
+<div data-include="header"></div>
+<div data-include="footer"></div>
 	</head>
 	<body>
-		<div id='cssmenu'>
-			<ul>
-				<li>
-					<a href="https://azad77.github.io/AzadRasul/" target="_blank">Home</a>
-				</li>
-				<li>
-					<a href="https://azad77.github.io/AzadRasul/About.html" target="_blank">About</a>
-				</li>
-				<li>
-					<a href="https://azad77.github.io/AzadRasul/Resume.html" target="_blank">Resume</a>
-				</li>
-				<li>
-					<a href="https://azad77.github.io/AzadRasul/Publications.html" target="_blank">Publications</a>
-				</li>
-				<li>
-					<a class="active" href="https://azad77.github.io/AzadRasul/Contact.html" target = "_blank">Contact</a>
-				</li>
-			</ul>
-		</div>
+
 		<h3 id="read-more-about-me-and-my-works">Read more about me and my works</h3>
 		<p>
 			<a href="https://sites.google.com/view/azad-rasul/home?authuser=0">My google site</a>
