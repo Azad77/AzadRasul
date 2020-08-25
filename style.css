@@ -51,3 +51,9 @@ li a.active {
    color: white;
    text-align: center;
 }
+header {
+    background: lightblue
+}
+main{
+    background: green;
+}
