@@ -42,3 +42,13 @@ li a.active {
     float: none;
   }
 }
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #f3f3f3;
+   color: white;
+   text-align: center;
+   height:auto;
+}
