@@ -1,3 +1,13 @@
+html {
+position:relative;
+height:100%;
+width:100%;
+}
+body {
+position:absolute;
+min-width:100%;
+min-height:100%;
+}
 ul {
   list-style-type: none;
   margin: 0;
