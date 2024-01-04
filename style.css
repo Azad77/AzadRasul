@@ -58,7 +58,7 @@ li a.active {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: green;/* changed to green from #f3f3f3
+   background-color: #f3f3f3
    color: blue; /* Changed the text color from #666 to blue */
    text-align: center;
 }
