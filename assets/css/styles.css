@@ -30,7 +30,7 @@ li a:hover:not(.active) {
 }
 
 li a.active {
-  color: white;
+  color: blue; /* Changed color from white to blue */
   background-color: #4CAF50;
 }
 
