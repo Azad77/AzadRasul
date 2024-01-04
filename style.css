@@ -14,7 +14,7 @@ ul {
   padding: 0;
   overflow: hidden;
   border: 1px solid #e7e7e7;
-  background-color: #f3f3f3;
+  background-color: red; /* Changed background color to red */
 }
 
 li {
@@ -58,7 +58,7 @@ li a.active {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: #f3f3f3;
+   background-color: green;/* changed to green from #f3f3f3
    color: blue; /* Changed the text color from #666 to blue */
    text-align: center;
 }
