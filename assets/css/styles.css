@@ -19,7 +19,7 @@ li {
 
 li a {
   display: block;
-  color: #666;
+  color: blue; /* Changed color from #666 to blue */
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
