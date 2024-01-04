@@ -23,18 +23,18 @@ li {
 
 li a {
   display: block;
-  color: #666;
+  color: blue; /* Changed the text color from #666 to blue */
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #ddd;
+  color: blue; /* Changed the text color from #666 to blue */
 }
 
 li a.active {
-  color: white;
+  color: blue; /* Changed the text color from #666 to blue */
   background-color: #4CAF50;
 }
 .header-right {
@@ -59,7 +59,7 @@ li a.active {
    bottom: 0;
    width: 100%;
    background-color: #f3f3f3;
-   color: white;
+   color: blue; /* Changed the text color from #666 to blue */
    text-align: center;
 }
 */
